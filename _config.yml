@@ -10,7 +10,7 @@ url: https://artoolkitx.org # the base hostname & protocol for your site
 
 # theme options from https://bootswatch.com/
 # comment out this to use default Bootstrap
-bootwatch: paper
+bootwatch: cyborg
 
 # Build settings
 markdown: kramdown
