@@ -39,6 +39,40 @@ body {
   }
 }
 
+.scont a {
+    font-size: 20px;
+    color: #09c;
+    font-weight: 400;
+    width: 40px;
+    transition: .3s;
+    height: 40px;
+    display: inline-block;
+    background: #fff;
+    line-height: 40px;
+    border-radius: 50%;
+}
+
+.scont a.sfb:hover {
+    background: #3b5998;
+    color: #fff
+}
+.scont a.slink:hover {
+    background: #007bb5;
+    color: #fff
+}
+.scont a.sins:hover {
+    background: #cf177a;
+    color: #fff
+}
+.scont a.stw:hover {
+    background: #55acee;
+    color: #fff
+}
+.scont a.syt:hover {
+    background: #f00;
+    color: #fff
+}
+
 
 .header-container {
   background-color: black;
