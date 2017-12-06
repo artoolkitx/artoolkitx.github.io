@@ -2,6 +2,7 @@
 title: Downloads
 permalink: /docs/downloads/
 # redirect_from: /docs/index.html
+sectionid: downloads
 ---
 
 #### Version 5.4
