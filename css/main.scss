@@ -124,3 +124,15 @@ body {
 .navbar-form .has-feedback .form-control-feedback{
   top:10px
 }
+
+img.profile-social {
+    max-height: 30px;
+    max-width: 30px;
+    display: inline;
+}
+
+img.projects {
+    max-width: 100px;
+    max-height: auto;    
+    display: inline;
+}
