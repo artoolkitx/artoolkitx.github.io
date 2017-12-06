@@ -6,6 +6,13 @@ permalink: /docs/downloads/
 
 #### Version 5.4
 
+<div id="spinner">
+    <div class="loader">
+        <div id="largeBox"></div>
+        <div id="smallBox"></div>
+    </div>
+</div>
+
 <div id="status" style="visibility: hidden;"></div>
 <div id="objects"></div>
 

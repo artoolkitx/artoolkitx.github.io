@@ -14,6 +14,7 @@ bucket.listObjectsV2(function (err, data) {
         document.getElementById('status').innerHTML =
         'Could not load objects from S3 error: ' + err;
     } else {
+        document.getElementById('spinner').style.display='none';        
         document.getElementById('status').innerHTML ='Loaded ' + data.Contents.length + ' items from S3';
 
         for (var i = 0; i < data.Contents.length; i++) {

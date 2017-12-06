@@ -1,0 +1,53 @@
+/* body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+  } */
+  
+    #spinner {
+        margin: auto;
+        width: 3em;
+    }
+  .loader {
+    width: 3em;
+    height: 3em;
+    animation: loaderAnim 1.25s infinite;
+    outline: 1px solid transparent;
+  }
+  .loader #largeBox {
+    height: 3em;
+    width: 3em;
+    background-color: rgb(241,175,44);
+    outline: 1px solid transparent;
+    position: fixed;
+  }
+  .loader #smallBox {
+    height: 3em;
+    width: 3em;
+    background-color: #34495e;
+    position: fixed;
+    z-index: 1;
+    outline: 1px solid transparent;
+    animation: smallBoxAnim 1.25s alternate infinite ease-in-out;
+  }
+  
+  @keyframes smallBoxAnim {
+    0% {
+      transform: scale(0.2);
+    }
+    100% {
+      transform: scale(0.75);
+    }
+  }
+  @keyframes loaderAnim {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(90deg);
+    }
+  }
+  
