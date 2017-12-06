@@ -41,7 +41,7 @@ body {
 
 .scont a {
     font-size: 20px;
-    color: #09c;
+    color: rgb(51,160,212);
     font-weight: 400;
     width: 40px;
     transition: .3s;
@@ -104,7 +104,8 @@ body {
   width: 100%;
   height: 46px;
   padding-top: 10px;
-  background-color: $gray-lighter;
+  padding-bottom: 10px;
+//   background-color: $gray-lighter;
   color: $gray-dark;
 }
 
