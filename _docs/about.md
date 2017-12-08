@@ -33,15 +33,14 @@ particular, I see the potential of these problem solving solutions as a means to
         I am very interested in machine learning and the potential applications of large scale learning solutions. In
         particular, I see the potential of these problem solving solutions as a means to creating a better world.</p>
         <p>
-            <a href="https://www.linkedin.com/in/thorstenbux" target="_blank"><img class="profile-social" src="../../img/thor/socialMedia/linkedin.png"></a> 
-            <a href="https://stackoverflow.com/users/5843642/thor-bux" target="_blank"><img class="profile-social" src="../../img/thor/socialMedia/stackoverflow.png"></a>
-            <a href="https://github.com/thorstenbux" target="_blank"><img class="profile-social" src="../../img/thor/socialMedia/github.png"></a>
-            <a href="https://twitter.com/thor_bux" target="_blank"><img  class="profile-social" src="../../img/thor/socialMedia/twitter.png"></a>
-            <a href="http://augmentmy.world/" target="_blank"><img  class="profile-social" src="../../img/thor/socialMedia/augmentmyworld.png"></a>
+            <a href="https://www.linkedin.com/in/websight" target="_blank"><img class="profile-social" src="../../img/thor/socialMedia/linkedin.png"></a> 
+            <a href="https://github.com/neuroforge" target="_blank"><img class="profile-social" src="../../img/thor/socialMedia/github.png"></a>
+            <a href="https://twitter.com/websight_vision" target="_blank"><img  class="profile-social" src="../../img/thor/socialMedia/twitter.png"></a>
         </p>
-    </div>
-    <div class="col-md-4 text-center pull-right">
-        <img src="../../img/Thorsten_circle-grey.png" alt="Thorsten Bux" class="img-responsive" style="display:inline;max-width:80%;">
+        <p>AR projects I've worked on: </p>
+        <p>
+            <a href="https://youtu.be/a57E9qLWnts" target="_blank"><img class="projects" src="../../img/thor/projects/web-ar.png"></a> 
+        </p>
     </div>
 </div>
 ## Thorsten Bux
