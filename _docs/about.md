@@ -33,6 +33,9 @@ The artoolkitX team
             <a href="https://www.youtube.com/watch?v=83UbwGbjmSQ" target="_blank"><img class="projects" src="../../img/dan/projects/arAlign.png"></a> 
         </p>
     </div>
+        <div class="col-md-4 text-center pull-right">
+        <img src="../../img/dan/dan.png" alt="Thorsten Bux" class="img-responsive" style="display:inline;max-width:80%;">
+    </div>
 </div>
 ## Thorsten Bux
 
