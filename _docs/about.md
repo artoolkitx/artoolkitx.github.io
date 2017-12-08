@@ -7,12 +7,12 @@ sectionid: about
 
 The artoolkitX team
 
-## Philip Lamb
+### Philip Lamb
 
 
-## Ben Vaughan
+### Ben Vaughan
 
-## Daniel Bell
+### Daniel Bell
 <div class="row panel panel-default">
     <div class="col-md-8 panel-body">
         <p>I am a motivated individual who enjoys technological projects that involve a lot of abstract thinking and reliance on the interdisciplinary skills which I have developed whilst working toward my personal goals.
@@ -37,7 +37,7 @@ The artoolkitX team
         <img src="../../img/dan/dan.png" alt="Thorsten Bux" class="img-responsive" style="display:inline;max-width:80%;">
     </div>
 </div>
-## Thorsten Bux
+### Thorsten Bux
 
 <div class="row panel panel-default">
     <div class="col-md-8 panel-body">
