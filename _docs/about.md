@@ -23,12 +23,14 @@ The artoolkitX team
         particular, I see the potential of these problem solving solutions as a means to creating a better world.</p>
         <p>
             <a href="https://www.linkedin.com/in/websight" target="_blank"><img class="profile-social" src="../../img/thor/socialMedia/linkedIn.png"></a> 
+            <a href="https://stackoverflow.com/users/2723463/websight" target="_blank"><img class="profile-social" src="../../img/thor/socialMedia/stackoverflow.png"></a>
             <a href="https://github.com/neuroforge" target="_blank"><img class="profile-social" src="../../img/thor/socialMedia/gitHub.png"></a>
             <a href="https://twitter.com/websight_vision" target="_blank"><img  class="profile-social" src="../../img/thor/socialMedia/twitter.png"></a>
         </p>
         <p>AR projects I've worked on: </p>
         <p>
             <a href="https://youtu.be/a57E9qLWnts" target="_blank"><img class="projects" src="../../img/thor/projects/web-ar.png"></a> 
+            <a href="https://www.youtube.com/watch?v=83UbwGbjmSQ" target="_blank"><img class="projects" src="../../img/dan/projects/arAlign.png"></a> 
         </p>
     </div>
 </div>
