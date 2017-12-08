@@ -5,7 +5,7 @@ description: >
   artoolkitX the new standard in open-source Augmented Reality
 
 # baseurl: "/jekyll-doc-theme" # the subpath of your site, e.g. /blog/
-url: https://artoolkitx.org # the base hostname & protocol for your site
+url: http://www.artoolkitx.org # the base hostname & protocol for your site
 git_address: https://github.com/artoolkitx
 
 # theme options from https://bootswatch.com/
