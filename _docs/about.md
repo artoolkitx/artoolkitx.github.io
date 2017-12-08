@@ -18,10 +18,7 @@ The artoolkitX team
         <p>I am a motivated individual who enjoys technological projects that involve a lot of abstract thinking and reliance on the interdisciplinary skills which I have developed whilst working toward my personal goals.
         <br/>
         <br/>
-        I am a motivated individual who enjoys technological projects that involve a lot of abstract thinking and reliance
-        on the interdisciplinary skills which I have developed whilst working toward my personal goals. I am able to work
-        with many programming languages for responsive applications on multiple platforms. In recent years I have
-        developed a great deal of experience with Computer Vision, Machine Learning and Web Development.
+        In recent years I have developed a great deal of experience with Computer Vision, Machine Learning and Web Development.
         I am very interested in machine learning and the potential applications of large scale learning solutions. In
         particular, I see the potential of these problem solving solutions as a means to creating a better world.</p>
         <p>
