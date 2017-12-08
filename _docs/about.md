@@ -22,8 +22,8 @@ The artoolkitX team
         I am very interested in machine learning and the potential applications of large scale learning solutions. In
         particular, I see the potential of these problem solving solutions as a means to creating a better world.</p>
         <p>
-            <a href="https://www.linkedin.com/in/websight" target="_blank"><img class="profile-social" src="../../img/thor/socialMedia/linkedin.png"></a> 
-            <a href="https://github.com/neuroforge" target="_blank"><img class="profile-social" src="../../img/thor/socialMedia/github.png"></a>
+            <a href="https://www.linkedin.com/in/websight" target="_blank"><img class="profile-social" src="../../img/thor/socialMedia/linkedIn.png"></a> 
+            <a href="https://github.com/neuroforge" target="_blank"><img class="profile-social" src="../../img/thor/socialMedia/gitHub.png"></a>
             <a href="https://twitter.com/websight_vision" target="_blank"><img  class="profile-social" src="../../img/thor/socialMedia/twitter.png"></a>
         </p>
         <p>AR projects I've worked on: </p>
@@ -41,9 +41,9 @@ The artoolkitX team
         <br/>
         With more than seven years of work experience in information technology, I have a profound knowledge in software engineering and solution design. In the last two years, I created live changing products using Augmented Reality and shaped ARToolKit5 and ARToolKit6. Before that I took pride in realizing Internet of Things (IoT) products for various industries.</p>
         <p>
-            <a href="https://www.linkedin.com/in/thorstenbux" target="_blank"><img class="profile-social" src="../../img/thor/socialMedia/linkedin.png"></a> 
+            <a href="https://www.linkedin.com/in/thorstenbux" target="_blank"><img class="profile-social" src="../../img/thor/socialMedia/linkedIn.png"></a> 
             <a href="https://stackoverflow.com/users/5843642/thor-bux" target="_blank"><img class="profile-social" src="../../img/thor/socialMedia/stackoverflow.png"></a>
-            <a href="https://github.com/thorstenbux" target="_blank"><img class="profile-social" src="../../img/thor/socialMedia/github.png"></a>
+            <a href="https://github.com/thorstenbux" target="_blank"><img class="profile-social" src="../../img/thor/socialMedia/gitHub.png"></a>
             <a href="https://twitter.com/thor_bux" target="_blank"><img  class="profile-social" src="../../img/thor/socialMedia/twitter.png"></a>
             <a href="http://augmentmy.world/" target="_blank"><img  class="profile-social" src="../../img/thor/socialMedia/augmentmyworld.png"></a>
         </p>
