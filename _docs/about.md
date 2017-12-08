@@ -9,15 +9,34 @@ The artoolkitX team
 
 ### Philip Lamb
 
-
+<div class="row panel panel-default">
+    <div class="col-md-8 panel-body">
+        <p>Philip Lamb is the the principal engineer on artoolkitX. He has 20 years experience in augmented and virtual reality, alongside skills in real-time rendering, software architecture, and an academic background in robotics and perceptual psychology.
+        </p>
+        <p>He first helped the original creators of ARToolKit, Professors Hirokazu Kato and Mark Billinghurst, publish open-source on Sourceforge in 2003, published the first AR app on the iPhone in 2007, and helped grow AR into an industry as CTO of ARToolworks, Inc., and after its acquisition by DAQRI LLC, as Chief Open Source Architect.
+        </p>
+        <p>
+        He is based in Christchurch, New Zealand.
+        </p>
+    </div>
+</div>
 ### Ben Vaughan
-
+<div class="row panel panel-default">
+    <div class="col-md-8 panel-body">
+        <p>
+        Ben is the strategic director for artoolkitX. He has spent the last 25 years involved in the real time 3D visualization industry, prior to which he spent five years as an investment banker and seven years working in the City of London as a strategic marketing and investor relations consultant.</p>
+        <p>His technology career started in the early 1990s with one of the UK's pioneering virtual reality companies (Virtuality PLC) where he was the head of External Affairs. He then co-founded a VC-backed start-up in California before moving to the East Coast to run a business unit for InterSense Inc. Since 2000, Ben has worked for his own company and become involved in several software start-ups in a variety of senior executive positions including CEO of ARToolworks Inc 2010-2015 and Chief Open Source Evangelist at DAQRI LLC 2015-2016.
+        </p>
+        <p>
+        He lives in the beautiful countryside of Somerset, UK.
+        </p>
+    </div>
+</div>
 ### Daniel Bell
 <div class="row panel panel-default">
     <div class="col-md-8 panel-body">
-        <p>I am a motivated individual who enjoys technological projects that involve a lot of abstract thinking and reliance on the interdisciplinary skills which I have developed whilst working toward my personal goals.
-        <br/>
-        <br/>
+        <p>I am a motivated individual who enjoys technological projects that involve a lot of abstract thinking and reliance on the interdisciplinary skills which I have developed whilst working toward my personal goals.</p>
+        <p>
         In recent years I have developed a great deal of experience with Computer Vision, Machine Learning and Web Development.
         I am very interested in machine learning and the potential applications of large scale learning solutions. In
         particular, I see the potential of these problem solving solutions as a means to creating a better world.</p>
@@ -41,10 +60,10 @@ The artoolkitX team
 
 <div class="row panel panel-default">
     <div class="col-md-8 panel-body">
-        <p>With all I do, I believe in empowering people. I believe in inspiring products. I empower people is by designing solutions which are easy to understand, inspiring and exciting to use. I create outstanding software.
-        <br/>
-        <br/>
-        With more than seven years of work experience in information technology, I have a profound knowledge in software engineering and solution design. In the last two years, I created live changing products using Augmented Reality and shaped ARToolKit5 and ARToolKit6. Before that I took pride in realizing Internet of Things (IoT) products for various industries.</p>
+        <p>
+        With more than seven years of work experience in information technology, I have a profound knowledge in software engineering and solution design. In the last two years, I created life-changing products using Augmented Reality and shaped ARToolKit5 and ARToolKit6. Before that I took pride in realizing Internet of Things (IoT) products for various industries.</p>
+        <p>
+        With all I do, I believe in empowering people. I believe in inspiring products. I empower people is by designing solutions which are easy to understand, inspiring and exciting to use. I aim to create outstanding software.</p>
         <p>
             <a href="https://www.linkedin.com/in/thorstenbux" target="_blank"><img class="profile-social" src="../../img/thor/socialMedia/linkedIn.png"></a> 
             <a href="https://stackoverflow.com/users/5843642/thor-bux" target="_blank"><img class="profile-social" src="../../img/thor/socialMedia/stackoverflow.png"></a>
