@@ -9,18 +9,44 @@ const bucket = new AWS.S3({params: {Bucket: bucketName}});
 
 const urlPrefix="https://s3-us-west-2.amazonaws.com/" + bucketName + '/';
 
-bucket.listObjectsV2(function (err, data) {
+const params = {
+    Prefix: 'download'
+};
+
+bucket.listObjectsV2(params, function (err, data) {
     if (err) {
         document.getElementById('status').innerHTML =
         'Could not load objects from S3 error: ' + err;
     } else {
         document.getElementById('spinner').style.display='none';        
         document.getElementById('status').innerHTML ='Loaded ' + data.Contents.length + ' items from S3';
-
-        for (var i = 0; i < data.Contents.length; i++) {
+        const objects = document.getElementById('objects');
+        const list = document.createElement('ul');
+        objects.appendChild(list);
+        for (let i = 0; i < data.Contents.length; i++) {
             let fileNameWithPath = data.Contents[i].Key;
             let fileName = fileNameWithPath.substr(fileNameWithPath.lastIndexOf('/')+1);
-            document.getElementById('objects').innerHTML += `<li><a href=${urlPrefix}${data.Contents[i].Key}>${fileName}</a></li>`
+            const element = document.createElement("li");
+            const link = document.createElement("a");
+            link.setAttribute('href', `${urlPrefix}${data.Contents[i].Key}`);
+            link.appendChild(document.createTextNode(fileName));
+            element.appendChild(link);
+            list.appendChild(element);
+            // Read meta data
+            const xhr = new XMLHttpRequest();
+            xhr.open('GET', `${urlPrefix}meta/${fileName}.json`, true);
+            xhr.send();
+
+            xhr.onreadystatechange = (e) => {
+                if(xhr.readyState == 4 && xhr.status == 200){
+                    const response = JSON.parse(xhr.responseText);
+                    console.log("Success: " + response.time);
+                    // document.getElementById(`meta-${i}`).innerText = response.time;
+                }
+                else {
+                    console.log(xhr.status);
+                }
+            };
         }
     }
 }); 
