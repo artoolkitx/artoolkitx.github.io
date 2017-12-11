@@ -26,12 +26,15 @@ bucket.listObjectsV2(params, function (err, data) {
         for (let i = 0; i < data.Contents.length; i++) {
             let fileNameWithPath = data.Contents[i].Key;
             let fileName = fileNameWithPath.substr(fileNameWithPath.lastIndexOf('/')+1);
-            const element = document.createElement("li");
+            const listItem = document.createElement("li");
+            const linkContainer = document.createElement('span');
+            linkContainer.setAttribute('class', 'col-md-5');
             const link = document.createElement("a");
             link.setAttribute('href', `${urlPrefix}${data.Contents[i].Key}`);
             link.appendChild(document.createTextNode(fileName));
-            element.appendChild(link);
-            list.appendChild(element);
+            linkContainer.appendChild(link);
+            listItem.appendChild(linkContainer);
+            list.appendChild(listItem);
             // Read meta data
             const xhr = new XMLHttpRequest();
             xhr.open('GET', `${urlPrefix}meta/${fileName}.json`, true);
@@ -41,10 +44,29 @@ bucket.listObjectsV2(params, function (err, data) {
                 if(xhr.readyState == 4 && xhr.status == 200){
                     const response = JSON.parse(xhr.responseText);
                     console.log("Success: " + response.time);
-                    // document.getElementById(`meta-${i}`).innerText = response.time;
+                    const t = moment.unix(response.time);
+                    t.utc();
+                    const formatted = t.format("YYYY-MM-DD HH:mm");
+                    const gitText = `${formatted} UTC | ${response.commitMessage} | ${response.sha.substring(0,7)}`;
+                    
+                    const gitDetails = document.createElement('span');
+                    gitDetails.setAttribute('id', 'gitDetails');
+                    gitDetails.setAttribute('class', 'col-md-7');
+                    gitDetails.setAttribute('data-toggle', 'tooltip' );
+                    gitDetails.setAttribute('title', gitText);
+                    gitDetails.appendChild(document.createTextNode(gitText));
+                    // const gitTooltip = document.createElement('span');
+                    // gitTooltip.setAttribute('class', 'tooltiptext');
+                    // gitTooltip.appendChild(document.createTextNode(gitText));
+                    // gitDetails.appendChild(gitTooltip);
+                    listItem.appendChild(gitDetails);
                 }
-                else {
-                    console.log(xhr.status);
+                else if (xhr.readyState == 4 && xhr.status != 200) {
+                    const gitDetails = document.createElement('span');
+                    gitDetails.setAttribute('id', 'gitDetails');
+                    gitDetails.setAttribute('class', 'col-md-7');
+                    gitDetails.appendChild(document.createTextNode(`N/A: ${xhr.status}`));
+                    listItem.appendChild(gitDetails);
                 }
             };
         }
