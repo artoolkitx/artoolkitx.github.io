@@ -61,9 +61,10 @@ The artoolkitX team
 <div class="row panel panel-default">
     <div class="col-md-8 panel-body">
         <p>
-        With all I do, I believe in empowering people. I believe in inspiring products. I empower people is by designing solutions which are easy to understand, inspiring and exciting to use. I create outstanding software.</p>
+        With all I do, I believe in empowering people. I believe in inspiring products. I empower people, by creating products that aim for ease 
+        of use, excitement and simplicity.</p>
         <p>
-        With more than seven years of work experience in information technology, I have a profound knowledge in software engineering and solution design. In the last two years, I created life-changing products using Augmented Reality and shaped ARToolKit5 and ARToolKit6. Before that I took pride in realizing Internet of Things (IoT) products for various industries.</p>        
+        With over seven years of work experience in information technology, I have a profound knowledge in software engineering and solution design. In the last two years, I've created innovative Augmented Reality products like an Android camera calibration platform and shaped ARToolKit5 and ARToolKit6. Before that I took pride in realizing Internet of Things (IoT) products for various industries.</p>        
         <p>
             <a href="https://www.linkedin.com/in/thorstenbux" target="_blank"><img class="profile-social" src="../../img/thor/socialMedia/linkedIn.png"></a> 
             <a href="https://stackoverflow.com/users/5843642/thor-bux" target="_blank"><img class="profile-social" src="../../img/thor/socialMedia/stackoverflow.png"></a>
