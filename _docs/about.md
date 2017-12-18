@@ -8,7 +8,7 @@ sectionid: about
 <div class="row panel panel-default">
     <div class="col-md-8 panel-body">
         <p>
-        artoolkitX is a new open source project that has been created to continue support for the ARToolKit community and to ensure that future generations of augmented reality developers will have access to, and understanding of, the underlying algorithms that drive this innovative technology.  The project is run by the core team that has been responsible for all ARToolKit development for the last decade and is funded by Realmax (www.realmax.com), a leading Chinese AR company.
+        ArtoolkitX is a new open source project that has been created to continue support for the ARToolKit community and to ensure that future generations of augmented reality developers will have access to, and understanding of, the underlying algorithms that drive this innovative technology.  The project is run by the core team that has been responsible for all ARToolKit development for the last decade and is funded by Realmax (www.realmax.com), a leading Chinese AR company.
         </p>
         <p>
         Until the launch of a version 1.0 release of artoolkitX, we will actively maintain a fork (link) of ARToolKit v5.x, provide live binary builds (link) of the software and actively support the user community via our forum (link).

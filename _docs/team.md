@@ -1,11 +1,11 @@
 ---
-title: About
-permalink: /docs/theTeam/
+title: The Team
+permalink: /docs/team/
 redirect_from: /docs/index.html
-sectionid: about
+sectionid: team
 ---
 
-The artoolkitX team
+The ArtoolkitX team
 
 ### Philip Lamb
 
