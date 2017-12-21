@@ -60,11 +60,14 @@ The ArtoolkitX team
 
 <div class="row panel panel-default">
     <div class="col-md-8 panel-body">
-        <p>
-        With all I do, I believe in empowering people. I believe in inspiring products. I empower people, by creating products that aim for ease 
-        of use, excitement and simplicity.</p>
-        <p>
-        With over seven years of work experience in information technology, I have a profound knowledge in software engineering and solution design. In the last two years, I've created innovative Augmented Reality products like an Android camera calibration platform and shaped ARToolKit5 and ARToolKit6. Before that I took pride in realizing Internet of Things (IoT) products for various industries.</p>        
+    <p>
+    Thorsten Bux is software engineer on artoolkitX. He has over 5 years of experience in augmented reality, paired with several years of experience in creating products in the IoT realm.</p>
+    <p>
+    He deeply believes in empowering people and does so by creating products that aim for ease of use, excitement and simplicity.</p>
+    <p>
+    He has an academic background in software architecture and computer science with emphasis on 2D and 3D content creation for desktop and mobile.</p>
+    <p>
+    During the last two years he created innovative augmented reality products like an Android camera calibration platform and was one of the main contributors to ARToolKit5 and ARToolKit6.</p>       
         <p>
             <a href="https://www.linkedin.com/in/thorstenbux" target="_blank"><img class="profile-social" src="../../img/thor/socialMedia/linkedIn.png"></a> 
             <a href="https://stackoverflow.com/users/5843642/thor-bux" target="_blank"><img class="profile-social" src="../../img/thor/socialMedia/stackoverflow.png"></a>
