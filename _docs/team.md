@@ -5,7 +5,7 @@ redirect_from: /docs/index.html
 sectionid: team
 ---
 
-The ArtoolkitX team
+The artoolkitX team
 
 ### Philip Lamb
 
