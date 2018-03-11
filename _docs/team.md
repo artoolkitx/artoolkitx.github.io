@@ -45,6 +45,7 @@ The artoolkitX team
             <a href="https://stackoverflow.com/users/2723463/websight" target="_blank"><img class="profile-social" src="../../img/thor/socialMedia/stackoverflow.png"></a>
             <a href="https://github.com/neuroforge" target="_blank"><img class="profile-social" src="../../img/thor/socialMedia/gitHub.png"></a>
             <a href="https://twitter.com/websight_vision" target="_blank"><img  class="profile-social" src="../../img/thor/socialMedia/twitter.png"></a>
+            <a href="https://www.john-daniel-bell.com/" target="_blank"><img  class="profile-social" src="../../img/thor/socialMedia/www.png"></a>
         </p>
         <p>AR projects I've worked on: </p>
         <p>
