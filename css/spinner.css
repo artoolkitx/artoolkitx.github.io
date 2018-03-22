@@ -11,6 +11,10 @@
         margin: auto;
         width: 3em;
     }
+    #spinnerArx {
+        margin: auto;
+        width: 3em;
+    }
   .loader {
     width: 3em;
     height: 3em;
