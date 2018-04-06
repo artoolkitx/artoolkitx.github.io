@@ -1,3 +1,36 @@
+// Use GitHub release
+
+const gh = new GitHub();
+const artkxHeader = "artoolkitx version ";
+
+const repo = gh.getRepo('artoolkitx', 'artoolkitx');
+
+repo.listReleases().then(releaseList => {
+    const objects = document.getElementById('objectsArx');
+
+    releaseList.data.forEach(release => {
+        const list = document.createElement('ul');
+        const releaseName = release.tag_name;
+        const header = document.createElement('h3');
+        header.appendChild(document.createTextNode(artkxHeader + releaseName));
+        objects.appendChild(header);
+        objects.appendChild(list);
+
+        console.log("Release Name: "+ releaseName);
+        release.assets.forEach( asset => {
+            const downloadUrl = asset.browser_download_url;
+            const assetName = asset.name;
+            if(!assetName.includes("unity")){
+                createList(assetName, list, "", downloadUrl);
+            }
+        });
+    });
+    document.getElementById('spinnerArx').style.display='none';
+}, err => {
+    console.log("Error: "+ err);
+});
+
+
 // Initialize the Amazon Cognito credentials provider
 AWS.config.region = 'us-east-1'; // Region
 AWS.config.credentials = new AWS.CognitoIdentityCredentials({
@@ -51,12 +84,12 @@ const readMetaData = (fileName, listItem) => {
     }
 }
 
-const createList = (fileName, data, list, fileWithPath, meta) => {
+const createList = (fileName, list, meta, download_url) => {
     const listItem = document.createElement("li");
     const linkContainer = document.createElement('span');
     linkContainer.setAttribute('class', 'col-md-5');
     const link = document.createElement("a");
-    link.setAttribute('href', `${urlPrefix}fileWithPath`);
+    link.setAttribute('href', download_url);
     link.appendChild(document.createTextNode(fileName));
     linkContainer.appendChild(link);
     listItem.appendChild(linkContainer);
@@ -72,24 +105,24 @@ const buildDownloadList = (list, objects, data, meta) => {
         let fileNameWithPath = data.Contents[i].Key;
         let fileName = fileNameWithPath.substr(fileNameWithPath.lastIndexOf('/')+1);
         if (fileName) {
-            createList(fileName, fileNameWithPath, list, data, meta);
+            createList(fileName, list, meta, urlPrefix+fileNameWithPath);
         }
     }
 }
 
-bucket.listObjectsV2(paramsArx, (err, data) => {
-    const status = document.getElementById('statusArx');
-    if (err) {
-        status.innerHTML =
-        'Could not load objects from S3 error: ' + err;
-    } else {
-        document.getElementById('spinnerArx').style.display='none';        
-        status.innerHTML ='Loaded ' + data.Contents.length + ' items from S3';
-        const objects = document.getElementById('objectsArx');
-        const list = document.createElement('ul');
-        buildDownloadList(list, objects, data);
-    }
-});
+// bucket.listObjectsV2(paramsArx, (err, data) => {
+//     const status = document.getElementById('statusArx');
+//     if (err) {
+//         status.innerHTML =
+//         'Could not load objects from S3, error: ' + err;
+//     } else {
+//         document.getElementById('spinnerArx').style.display='none';        
+//         status.innerHTML ='Loaded ' + data.Contents.length + ' items from S3';
+//         const objects = document.getElementById('objectsArx');
+//         const list = document.createElement('ul');
+//         buildDownloadList(list, objects, data);
+//     }
+// });
 
 bucket.listObjectsV2(params, function (err, data) {
     if (err) {

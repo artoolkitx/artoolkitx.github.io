@@ -5,10 +5,9 @@ permalink: /docs/downloads/
 sectionid: downloads
 ---
 <script src="https://sdk.amazonaws.com/js/aws-sdk-2.163.0.min.js"></script>
+<script src="https://unpkg.com/github-api/dist/GitHub.bundle.min.js"></script>
 <script type="text/javascript" src="/js/moment.min.js"></script>
 
-
-### artoolkitX version 1.0b
 
 <div id="spinnerArx">
     <div class="loader">
@@ -32,4 +31,4 @@ sectionid: downloads
 <div id="status" style="visibility: hidden;"></div>
 <div id="objects"></div>
 
-<script type="text/javascript" src="/js/aws_s3.js"></script>
+<script type="text/javascript" src="/js/downloadList.js"></script>
