@@ -5,7 +5,7 @@ redirect_from: /docs/index.html
 sectionid: team
 ---
 
-The ArtoolkitX team
+The artoolkitX team
 
 ### Philip Lamb
 
@@ -41,10 +41,11 @@ The ArtoolkitX team
         I am very interested in machine learning and the potential applications of large scale learning solutions. In
         particular, I see the potential of these problem solving solutions as a means to creating a better world.</p>
         <p>
-            <a href="https://www.linkedin.com/in/websight" target="_blank"><img class="profile-social" src="../../img/thor/socialMedia/linkedIn.png"></a> 
+            <a href="https://www.linkedin.com/in/john-bell-00502b15b" target="_blank"><img class="profile-social" src="../../img/thor/socialMedia/linkedIn.png"></a> 
             <a href="https://stackoverflow.com/users/2723463/websight" target="_blank"><img class="profile-social" src="../../img/thor/socialMedia/stackoverflow.png"></a>
             <a href="https://github.com/neuroforge" target="_blank"><img class="profile-social" src="../../img/thor/socialMedia/gitHub.png"></a>
             <a href="https://twitter.com/websight_vision" target="_blank"><img  class="profile-social" src="../../img/thor/socialMedia/twitter.png"></a>
+            <a href="https://www.john-daniel-bell.com/" target="_blank"><img  class="profile-social" src="../../img/thor/socialMedia/www.png"></a>
         </p>
         <p>AR projects I've worked on: </p>
         <p>
