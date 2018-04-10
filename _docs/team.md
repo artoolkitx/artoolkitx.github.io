@@ -20,7 +20,7 @@ The artoolkitX team
         </p>
     </div>
     <div class="col-md-4 text-center pull-right">
-        <img src="../../img/phil/phil_circle.png" alt="Philip Lamb" class="img-responsive" style="display:inline;max-width:80%;">
+        <img src="../../img/phil/Phil_circle.png" alt="Philip Lamb" class="img-responsive" style="display:inline;max-width:80%;">
     </div>
 </div>
 ### Ben Vaughan
