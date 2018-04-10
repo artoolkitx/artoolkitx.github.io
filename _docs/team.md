@@ -19,6 +19,9 @@ The artoolkitX team
         He is based in Christchurch, New Zealand.
         </p>
     </div>
+    <div class="col-md-4 text-center pull-right">
+        <img src="../../img/phil/phil_circle.png" alt="Thorsten Bux" class="img-responsive" style="display:inline;max-width:80%;">
+    </div>
 </div>
 ### Ben Vaughan
 <div class="row panel panel-default">
