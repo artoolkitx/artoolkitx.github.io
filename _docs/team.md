@@ -35,11 +35,11 @@ The artoolkitX team
 ### Daniel Bell
 <div class="row panel panel-default">
     <div class="col-md-8 panel-body">
-        <p>I am a motivated individual who enjoys technological projects that involve a lot of abstract thinking and reliance on the interdisciplinary skills which I have developed whilst working toward my personal goals.</p>
+        <p>Dan am a motivated individual who enjoys technological projects that involve a lot of abstract thinking and reliance on the interdisciplinary skills which he have developed whilst working toward his personal goals.</p>
         <p>
-        In recent years I have developed a great deal of experience with Computer Vision, Machine Learning and Web Development.
-        I am very interested in machine learning and the potential applications of large scale learning solutions. In
-        particular, I see the potential of these problem solving solutions as a means to creating a better world.</p>
+        In recent years Dan has developed a great deal of experience with Computer Vision, Machine Learning and Web Development.
+        He is very interested in machine learning and the potential applications of large scale learning solutions. In
+        particular, Dan see's the potential of these problem solving solutions as a means to creating a better world.</p>
         <p>
             <a href="https://www.linkedin.com/in/john-bell-00502b15b" target="_blank"><img class="profile-social" src="../../img/thor/socialMedia/linkedIn.png"></a> 
             <a href="https://stackoverflow.com/users/2723463/websight" target="_blank"><img class="profile-social" src="../../img/thor/socialMedia/stackoverflow.png"></a>
@@ -86,6 +86,6 @@ The artoolkitX team
         </p>
     </div>
     <div class="col-md-4 text-center pull-right">
-        <img src="../../img/Thorsten_circle-grey.png" alt="Thorsten Bux" class="img-responsive" style="display:inline;max-width:80%;">
+        <img src="../../img/thor/Thorsten_circle-grey.png" alt="Thorsten Bux" class="img-responsive" style="display:inline;max-width:80%;">
     </div>
 </div>
