@@ -38,7 +38,7 @@ The artoolkitX team
 ### Daniel Bell
 <div class="row panel panel-default">
     <div class="col-md-8 panel-body">
-        <p>Dan am a motivated individual who enjoys technological projects that involve a lot of abstract thinking and reliance on the interdisciplinary skills which he have developed whilst working toward his personal goals.</p>
+        <p>Dan is a motivated individual who enjoys technological projects that involve a lot of abstract thinking and reliance on the interdisciplinary skills which he have developed whilst working toward his personal goals.</p>
         <p>
         In recent years Dan has developed a great deal of experience with Computer Vision, Machine Learning and Web Development.
         He is very interested in machine learning and the potential applications of large scale learning solutions. In
