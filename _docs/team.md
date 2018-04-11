@@ -34,6 +34,9 @@ The artoolkitX team
         He lives in the beautiful countryside of Somerset, UK.
         </p>
     </div>
+    <div class="col-md-4 text-center pull-right">
+        <img src="../../img/ben/ben_circle.png" alt="Ben Vaughan" class="img-responsive" style="display:inline;max-width:80%;">
+    </div>
 </div>
 ### Daniel Bell
 <div class="row panel panel-default">
