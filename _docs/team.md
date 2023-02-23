@@ -23,21 +23,7 @@ The artoolkitX team
         <img src="../../img/phil/Phil_circle.png" alt="Philip Lamb" class="img-responsive" style="display:inline;max-width:80%;">
     </div>
 </div>
-### Ben Vaughan
-<div class="row panel panel-default">
-    <div class="col-md-8 panel-body">
-        <p>
-        Ben is the strategic director for artoolkitX. He has spent the last 25 years involved in the real time 3D visualization industry, prior to which he spent five years as an investment banker and seven years working in the City of London as a strategic marketing and investor relations consultant.</p>
-        <p>His technology career started in the early 1990s with one of the UK's pioneering virtual reality companies (Virtuality PLC) where he was the head of External Affairs. He then co-founded a VC-backed start-up in California before moving to the East Coast to run a business unit for InterSense Inc. Since 2000, Ben has worked for his own company and become involved in several software start-ups in a variety of senior executive positions including CEO of ARToolworks Inc 2010-2015 and Chief Open Source Evangelist at DAQRI LLC 2015-2016.
-        </p>
-        <p>
-        He lives in the beautiful countryside of Somerset, UK.
-        </p>
-    </div>
-    <div class="col-md-4 text-center pull-right">
-        <img src="../../img/ben/ben_circle.png" alt="Ben Vaughan" class="img-responsive" style="display:inline;max-width:80%;">
-    </div>
-</div>
+
 ### Daniel Bell
 <div class="row panel panel-default">
     <div class="col-md-8 panel-body">
